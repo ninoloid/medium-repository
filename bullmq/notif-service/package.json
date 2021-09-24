@@ -1,0 +1,25 @@
+{
+  "name": "notifservice",
+  "version": "1.0.0",
+  "description": "Notification Service",
+  "main": "app.js",
+  "bin": {
+    "api1": "server.js"
+  },
+  "dependencies": {
+    "bullmq": "^1.48.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "author": "Ahmad MSA",
+  "license": "ISC"
+}
